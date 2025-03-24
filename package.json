@@ -1,0 +1,25 @@
+{
+  "name": "api",
+  "version": "0.0.1",
+  "description": "Estudando sobre API com Node e MongoDB",
+  "main": "main.mjs",
+  "scripts": {
+    "dev": "nodemon ./main.mjs localhost 3003"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code-douglas/introducao_api.git"
+  },
+  "author": "Douglas@Codin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/code-douglas/introducao_api/issues"
+  },
+  "homepage": "https://github.com/code-douglas/introducao_api#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.23.0",
+    "eslint": "^9.23.0",
+    "globals": "^16.0.0",
+    "nodemon": "^3.1.9"
+  }
+}
