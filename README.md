@@ -8,7 +8,7 @@
 ### Tecnológicas utilizadas:
 
 - Javascript: Parte lógica
-- Express.js: Criar o servidor para rodar a aplicação
+- Express.js: Criar a API.
 - MongoDB: Base da dados utilizada
 - Mongoose: Modelagem de dados
 - Dotenv: Variaveis de ambiente
