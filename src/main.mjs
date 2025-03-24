@@ -13,4 +13,13 @@ app.get('/', (req, res) => {
   });
 });
 
+app.post('/createproduct', (req, res) => {
+  const { name, price } = req.body;
+  console.table(name, price);
+
+  res.status(200).json({
+    message: `O produto: ${name} foi criado com sucesso.`
+  });
+});
+
 app.listen(3000);
