@@ -15,7 +15,17 @@ app.get('/', (req, res) => {
 
 app.post('/createproduct', (req, res) => {
   const { name, price } = req.body;
-  console.table(name, price);
+
+  console.log(name, price);
+
+  // Validações
+  if(!name) {
+    res.status(422).json({
+      message: 'O campo nome é obrigatório!'
+    });
+
+    return;
+  }
 
   res.status(200).json({
     message: `O produto: ${name} foi criado com sucesso.`
