@@ -4,7 +4,7 @@
   "description": "Estudando sobre API com Node e MongoDB",
   "main": "main.mjs",
   "scripts": {
-    "dev": "nodemon ./main.mjs localhost 3003"
+    "dev": "nodemon ./src/main.mjs localhost 3000"
   },
   "repository": {
     "type": "git",
