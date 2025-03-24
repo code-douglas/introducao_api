@@ -13,3 +13,9 @@
 - Mongoose: Modelagem de dados
 - Dotenv: Variaveis de ambiente
 - Nodemon: Reload na aplicação a cada alteração.
+
+
+### Rotas
+
+- <code>/</code> rota que irá retornar código 200 indicando que a requisição foi feita bem-sucedida, além de uma mensagem em JSON.
+- <code>/createproduct</code> rota que é responsável por receber os dados via dados de formulário, onde existem dois campos necessários o campo name(nome do produto) e o campo price(preco do produto), retornando uma mensagem de sucesso e o código 200. 
